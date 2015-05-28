@@ -57,7 +57,7 @@ public class IntentBuilder {
     }
 
     public enum Option {
-        CAMERA("Take a photo"), GALLERY("Gallery");
+        GALLERY("Gallery");
         String name;
 
         Option(String name) {

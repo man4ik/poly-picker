@@ -37,13 +37,8 @@ dependencies {
  * it causes issues when downloading cwac:camera from the AWS server.
  ***/
 repositories {
-    maven {
-        url "https://repo.commonsware.com.s3.amazonaws.com"
-    }
+
 }
 
-dependencies {
-    compile 'com.commonsware.cwac:camera:0.6.10'
-}
 
 apply from: '../maven_push.gradle'

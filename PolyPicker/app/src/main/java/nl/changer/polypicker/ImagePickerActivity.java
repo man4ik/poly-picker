@@ -72,7 +72,7 @@ public class ImagePickerActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main_pp);
 
         mConfig = IntentBuilder.Config.restore(getIntent().getExtras());
-        adapter = new OptionAdapterFragments(getFragmentManager(), getIntent());
+        adapter = new OptionAdapterFragments(getSupportFragmentManager());
         adapter.setOptions(mConfig.getOptions());
         mSelectedImagesContainer = (LinearLayout) findViewById(R.id.selected_photos_container);
         mSelectedImageEmptyMessage = (TextView) findViewById(R.id.selected_photos_empty);
