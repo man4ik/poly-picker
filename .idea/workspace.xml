@@ -1,248 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="598b2bfc-82e2-40cc-b1d8-9e6c6adf2b17" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/generated/source/buildConfig/debug/com/commonsware/cwac/camera/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/generated/source/buildConfig/release/com/commonsware/cwac/camera/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/generated/source/buildConfig/test/debug/com/commonsware/cwac/camera/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/generated/source/r/debug/com/commonsware/cwac/camera/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/generated/source/r/release/com/commonsware/cwac/camera/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/generated/source/r/test/debug/com/commonsware/cwac/camera/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/generated/source/r/test/debug/com/commonsware/cwac/camera/test/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_htc_htc_mecha.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_htc_m7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_motorola_xt910_rtanz.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_corsicadd.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_d2att.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_d2spr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_d2tmo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_d2uc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_d2vzw.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_gd1wifiue.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_ja3gxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_jflteuc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_kyleproxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_nevispxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_samsung_yakju.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_htc_htc_mecha.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_htc_m7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_motorola_xt910_rtanz.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_corsicadd.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_d2att.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_d2spr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_d2tmo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_d2uc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_d2vzw.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_gd1wifiue.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_ja3gxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_jflteuc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_kyleproxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_nevispxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/bundles/release/res/xml/cwac_camera_profile_samsung_yakju.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ByteBufferInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/CountedDataInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$ColorSpace.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$ComponentsConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$Compression.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$Contrast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$ExposureMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$ExposureProgram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$FileSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$Flash.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GainControl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GpsAltitudeRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GpsDifferential.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GpsLatitudeRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GpsLongitudeRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GpsMeasureMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GpsSpeedRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GpsStatus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$GpsTrackRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$LightSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$MeteringMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$Orientation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$PhotometricInterpretation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$PlanarConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$ResolutionUnit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$Saturation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$SceneCapture.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$SceneType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$SensingMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$Sharpness.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$SubjectDistance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$WhiteBalance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface$YCbCrPositioning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifInvalidFormatException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifModifier$TagOffset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifModifier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifParser$ExifTagEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifParser$IfdEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifParser$ImageEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/ExifTag.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/IfdData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/IfdId.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/JpegHeader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/OrderedDataOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/android/mms/exif/Rational.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraHost$FailureReason.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraHost$RecordingHint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraHost.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraHostProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraUtils$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraUtils$SizeComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraView$OnOrientationChange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraView$PictureTransactionCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/CameraView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/DeviceProfile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/ImageCleanupTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/PictureTransaction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/PreviewStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/SimpleCameraHost$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/SimpleCameraHost.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/SimpleDeviceProfile$MotorolaRazrI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/SimpleDeviceProfile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/SurfacePreviewStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/TexturePreviewStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/debug/com/commonsware/cwac/camera/ZoomTransaction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ByteBufferInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/CountedDataInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$ColorSpace.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$ComponentsConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$Compression.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$Contrast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$ExposureMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$ExposureProgram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$FileSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$Flash.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GainControl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GpsAltitudeRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GpsDifferential.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GpsLatitudeRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GpsLongitudeRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GpsMeasureMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GpsSpeedRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GpsStatus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$GpsTrackRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$LightSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$MeteringMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$Orientation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$PhotometricInterpretation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$PlanarConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$ResolutionUnit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$Saturation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$SceneCapture.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$SceneType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$SensingMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$Sharpness.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$SubjectDistance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$WhiteBalance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface$YCbCrPositioning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifInvalidFormatException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifModifier$TagOffset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifModifier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifParser$ExifTagEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifParser$IfdEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifParser$ImageEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/ExifTag.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/IfdData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/IfdId.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/JpegHeader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/OrderedDataOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/android/mms/exif/Rational.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraHost$FailureReason.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraHost$RecordingHint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraHost.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraHostProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraUtils$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraUtils$SizeComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraView$OnOrientationChange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraView$PictureTransactionCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/CameraView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/DeviceProfile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/ImageCleanupTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/PictureTransaction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/PreviewStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/SimpleCameraHost$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/SimpleCameraHost.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/SimpleDeviceProfile$MotorolaRazrI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/SimpleDeviceProfile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/SurfacePreviewStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/TexturePreviewStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/release/com/commonsware/cwac/camera/ZoomTransaction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/test/debug/com/commonsware/cwac/camera/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/test/debug/com/commonsware/cwac/camera/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/test/debug/com/commonsware/cwac/camera/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/test/debug/com/commonsware/cwac/camera/test/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/test/debug/com/commonsware/cwac/camera/test/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/classes/test/debug/com/commonsware/cwac/camera/test/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/aidl/debug/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/aidl/release/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/aidl/test/debug/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/mergeAssets/release/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/mergeAssets/test/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/mergeResources/test/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/incremental/packageResources/release/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/manifests/test/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/manifests/tmp/manifestMerger9093505792452895014.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/resources-debug-test.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_htc_htc_mecha.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_htc_m7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_motorola_xt910_rtanz.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_corsicadd.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_d2att.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_d2spr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_d2tmo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_d2uc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_d2vzw.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_gd1wifiue.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_ja3gxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_jflteuc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_kyleproxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_nevispxx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/res/test/debug/xml/cwac_camera_profile_samsung_yakju.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/intermediates/symbols/test/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/outputs/aar/camera-debug.aar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/outputs/aar/camera-release.aar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/poms/pom-default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/tmp/packageDebugJar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/camera/build/tmp/packageReleaseJar/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="598b2bfc-82e2-40cc-b1d8-9e6c6adf2b17" name="Default" comment="" />
     <ignored path="poly-picker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -265,8 +24,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39823008">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.359882">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -2347,6 +2106,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -2364,7 +2124,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2382,8 +2141,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39823008">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.359882">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>
