@@ -1,8 +1,0 @@
-<!-- Galaxy Camera (WiFi?) -->
-<deviceProfile>
-
-	<maxPictureHeight>
-1023
-	</maxPictureHeight>
-
-</deviceProfile><!-- From: file:/Users/user/WorkSpace/Android/poly-picker/camera/res/xml/cwac_camera_profile_htc_htc_mecha.xml -->
