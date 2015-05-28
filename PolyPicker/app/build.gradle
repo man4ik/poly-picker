@@ -37,9 +37,7 @@ dependencies {
  * it causes issues when downloading cwac:camera from the AWS server.
  ***/
 repositories {
-    maven {
-        url "https://jitpack.io"
-    }
+
 }
 
 
