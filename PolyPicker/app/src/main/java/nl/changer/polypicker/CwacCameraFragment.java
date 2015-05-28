@@ -1,15 +1,15 @@
-/***
- 7  Copyright (c) 2013 CommonsWare, LLC
-
- Licensed under the Apache License, Version 2.0 (the "License"); you may
- not use this file except in compliance with the License. You may obtain
- a copy of the License at
- http://www.apache.org/licenses/LICENSE-2.0
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+/**
+ * 7  Copyright (c) 2013 CommonsWare, LLC
+ * <p/>
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 
 package nl.changer.polypicker;
@@ -22,8 +22,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteException;
 import android.graphics.Bitmap;
 import android.graphics.PorterDuff;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.hardware.Camera;
 import android.hardware.Camera.Face;
 import android.hardware.Camera.Parameters;
@@ -31,7 +29,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -45,30 +42,43 @@ import com.commonsware.cwac.camera.PictureTransaction;
 import com.commonsware.cwac.camera.SimpleCameraHost;
 
 import nl.changer.polypicker.model.Image;
-import nl.changer.polypicker.utils.DebugLog;
 
 public class CwacCameraFragment extends CameraFragment {
 
     private static final String KEY_USE_FFC = "com.commonsware.cwac.camera.demo.USE_FFC";
-
     private static final String TAG = CwacCameraFragment.class.getSimpleName();
-
+    public static String BUNDLE_CONFIG = "BUNDLE_CONFIG";
+    String flashMode = null;
     private MenuItem autoFocusItem = null;
     private MenuItem recordItem = null;
-    String flashMode = null;
-
     private View mTakePictureBtn;
 
     private ProgressDialog mProgressDialog;
 
-    // initialize with default config.
-    private static Config mConfig;
+    private IntentBuilder.Config mConfig;
+    private View.OnClickListener mOnTakePictureClicked = new View.OnClickListener() {
+
+        @Override
+        public void onClick(View view) {
+            if (mTakePictureBtn.isEnabled()) {
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                    autoFocus();
+                    // calling above method will lead to callback
+                    // onAutoFocus()
+                } else {
+                    // dont attempt autofocus for version less than 16.
+                    takePicture();
+                }
+            }
+        }
+    };
 
     @Override
     public void onCreate(Bundle state) {
         super.onCreate(state);
         setRetainInstance(true);
-
+        mConfig = IntentBuilder.Config.restore(getArguments().getBundle(BUNDLE_CONFIG));
         SimpleCameraHost.Builder builder = new SimpleCameraHost.Builder(new DemoCameraHost(getActivity()));
         setHost(builder.useFullBleedPreview(true).build());
 
@@ -97,32 +107,6 @@ public class CwacCameraFragment extends CameraFragment {
         return view;
     }
 
-    /**
-     * Configure {@link CwacCameraFragment} with different parameters.
-     * @param config
-     */
-    public static void setConfig(@Nullable Config config) {
-        mConfig = config;
-    }
-
-    private View.OnClickListener mOnTakePictureClicked = new View.OnClickListener() {
-
-        @Override
-        public void onClick(View view) {
-            if (mTakePictureBtn.isEnabled()) {
-
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                    autoFocus();
-                    // calling above method will lead to callback
-                    // onAutoFocus()
-                } else {
-                    // dont attempt autofocus for version less than 16.
-                    takePicture();
-                }
-            }
-        }
-    };
-
     void setRecordingItemVisibility() {
         if (recordItem != null) {
             if (getDisplayOrientation() != 0
@@ -141,6 +125,25 @@ public class CwacCameraFragment extends CameraFragment {
         pictureTransaction.needBitmap(true);
         pictureTransaction.flashMode(flashMode);
         super.takePicture(pictureTransaction);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // if activity is closed suddenly,
+        // dismiss the progress dialog.
+        if (mProgressDialog != null) {
+            mProgressDialog.dismiss();
+        }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (mProgressDialog != null) {
+            mProgressDialog.dismiss();
+        }
     }
 
     private class DemoCameraHost extends SimpleCameraHost implements Camera.FaceDetectionListener {
@@ -270,25 +273,6 @@ public class CwacCameraFragment extends CameraFragment {
             // whether success=true/false just let it be.
             // we got to take picture no matter what.
             takePicture();
-        }
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-
-        // if activity is closed suddenly,
-        // dismiss the progress dialog.
-        if (mProgressDialog != null) {
-            mProgressDialog.dismiss();
-        }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        if (mProgressDialog != null) {
-            mProgressDialog.dismiss();
         }
     }
 }

@@ -5,6 +5,7 @@
     <color name="blue">#FF1AA1E1</color>
     <color name="orange">#ffe16b10</color>
     <color name="green">#ff26e111</color>
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
 
     <!--Floating Action Button colors-->
     <color name="fab_color_1">#ff5252</color>

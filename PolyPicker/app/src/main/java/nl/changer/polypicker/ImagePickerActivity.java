@@ -1,6 +1,5 @@
 package nl.changer.polypicker;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -27,55 +26,54 @@ import nl.changer.polypicker.utils.ImageInternalFetcher;
 public class ImagePickerActivity extends ActionBarActivity {
 
     /**
-     * Key to persist the list when saving the state of the activity.
-     */
-    private static final String KEY_LIST = "nl.changer.polypicker.savedinstance.key.list";
-
-    /**
      * Returns the parcelled image uris in the intent with this extra.
      */
     public static final String EXTRA_IMAGE_URIS = "nl.changer.changer.nl.polypicker.extra.selected_image_uris";
-
+    /**
+     * Key to persist the list when saving the state of the activity.
+     */
+    private static final String KEY_LIST = "nl.changer.polypicker.savedinstance.key.list";
+    // initialize with default config.
+    public ImageInternalFetcher mImageFetcher;
+    protected TextView mSelectedImageEmptyMessage;
     private Set<Image> mSelectedImages;
     private LinearLayout mSelectedImagesContainer;
-    protected TextView mSelectedImageEmptyMessage;
-
     private ViewPager mViewPager;
-    public ImageInternalFetcher mImageFetcher;
-
+    private IntentBuilder.Config mConfig;
     private Button mCancelButtonView, mDoneButtonView;
+    private PagerSlidingTabStrip mSlidingTabText;
+    private OptionAdapterFragments adapter;
 
-    private SlidingTabText mSlidingTabText;
+    private View.OnClickListener mOnFinishGettingImages = new View.OnClickListener() {
 
-    // initialize with default config.
-    private static Config mConfig = new Config.Builder().build();
+        @Override
+        public void onClick(View view) {
+            if (view.getId() == R.id.action_btn_done) {
 
-    public static void setConfig(Config config) {
+                Uri[] uris = new Uri[mSelectedImages.size()];
+                int i = 0;
+                for (Image img : mSelectedImages) {
+                    uris[i++] = img.mUri;
+                }
 
-        if (config == null) {
-            throw new NullPointerException("Config cannot be passed null. Not setting config will use default values.");
+                Intent intent = new Intent();
+                intent.putExtra(EXTRA_IMAGE_URIS, uris);
+                setResult(Activity.RESULT_OK, intent);
+            } else if (view.getId() == R.id.action_btn_cancel) {
+                setResult(Activity.RESULT_CANCELED);
+            }
+            finish();
         }
-
-        mConfig = config;
-    }
-
-    public static Config getConfig() {
-        return mConfig;
-    }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_pp);
 
-       /*
-       // Dont enable the toolbar.
-       // Consumes a lot of space in the UI unnecessarily.
-       Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        if (toolbar != null) {
-            setSupportActionBar(toolbar);
-        }*/
-
+        mConfig = IntentBuilder.Config.restore(getIntent().getExtras());
+        adapter = new OptionAdapterFragments(getFragmentManager(), getIntent());
+        adapter.setOptions(mConfig.getOptions());
         mSelectedImagesContainer = (LinearLayout) findViewById(R.id.selected_photos_container);
         mSelectedImageEmptyMessage = (TextView) findViewById(R.id.selected_photos_empty);
         mViewPager = (ViewPager) findViewById(R.id.pager);
@@ -108,34 +106,13 @@ public class ImagePickerActivity extends ActionBarActivity {
      * Sets up the action bar, adding view page indicator.
      */
     private void setupActionBar() {
-       /*final ActionBar actionBar = getActionBar();
+        mSlidingTabText = (PagerSlidingTabStrip) findViewById(R.id.sliding_tabs);
+        mViewPager.setAdapter(adapter);
+        if (mConfig.getOptions().length == 1) {
+            mSlidingTabText.setVisibility(View.GONE);
+        } else {
 
-        if (actionBar == null) {
-            return;
         }
-
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        actionBar.setDisplayShowHomeEnabled(false);
-        actionBar.setDisplayShowTitleEnabled(false);
-
-        mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
-
-            @Override
-            public void onPageSelected(int position) {
-                actionBar.setSelectedNavigationItem(position);
-            }
-        });
-
-        for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
-            actionBar.addTab(actionBar.newTab().setText(mSectionsPagerAdapter.getPageTitle(i)).setTabListener(this));
-        }*/
-
-        mSlidingTabText = (SlidingTabText) findViewById(R.id.sliding_tabs);
-        mSlidingTabText.setSelectedIndicatorColors(getResources().getColor(mConfig.getTabSelectionIndicatorColor()));
-        mSlidingTabText.setCustomTabView(R.layout.tab_view_text, R.id.tab_icon);
-        mSlidingTabText.setTabStripColor(mConfig.getTabBackgroundColor());
-        mViewPager.setAdapter(new PagerAdapter2Fragments(getFragmentManager()));
-        mSlidingTabText.setTabTitles(getResources().getStringArray(R.array.tab_titles));
         mSlidingTabText.setViewPager(mViewPager);
     }
 
@@ -195,28 +172,6 @@ public class ImagePickerActivity extends ActionBarActivity {
     public boolean containsImage(Image image) {
         return mSelectedImages.contains(image);
     }
-
-    private View.OnClickListener mOnFinishGettingImages = new View.OnClickListener() {
-
-        @Override
-        public void onClick(View view) {
-            if (view.getId() == R.id.action_btn_done) {
-
-                Uri[] uris = new Uri[mSelectedImages.size()];
-                int i = 0;
-                for (Image img : mSelectedImages) {
-                    uris[i++] = img.mUri;
-                }
-
-                Intent intent = new Intent();
-                intent.putExtra(EXTRA_IMAGE_URIS, uris);
-                setResult(Activity.RESULT_OK, intent);
-            } else if (view.getId() == R.id.action_btn_cancel) {
-                setResult(Activity.RESULT_CANCELED);
-            }
-            finish();
-        }
-    };
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {

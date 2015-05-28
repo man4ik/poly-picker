@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,20 +8,29 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="?attr/colorPrimaryDark"/>
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="?attr/colorPrimary"
+        android:visibility="invisible" />
 
-    <nl.changer.polypicker.SlidingTabText
+    <nl.changer.polypicker.PagerSlidingTabStrip
         android:id="@+id/sliding_tabs"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        fab:pstsIndicatorColor="?attr/colorPrimary"
+        android:background="?attr/colorPrimaryDark"
+
+        fab:pstsShouldExpand="true"
+        fab:pstsTextColorSelected="@android:color/white"
+        fab:pstsTextSelectedStyle="normal"
+        fab:pstsTextStyle="normal"
+        fab:pstsUnderlineColor="?attr/colorPrimary" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/action_btn_contianer"
-        android:layout_below="@+id/toolbar" />
+        android:layout_below="@+id/sliding_tabs" />
 
     <LinearLayout
         android:id="@+id/action_btn_contianer"
