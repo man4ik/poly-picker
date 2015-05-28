@@ -1,0 +1,8 @@
+<!-- Motorola Droid RAZR XT910 -->
+<deviceProfile>
+
+	<useTextureView>
+false
+	</useTextureView>
+
+</deviceProfile><!-- From: file:/Users/user/WorkSpace/Android/poly-picker/camera/res/xml/cwac_camera_profile_motorola_xt910_rtanz.xml --><!-- From: file:/Users/user/WorkSpace/Android/poly-picker/camera/build/intermediates/bundles/debug/res/xml/cwac_camera_profile_motorola_xt910_rtanz.xml -->

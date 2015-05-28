@@ -1,0 +1,8 @@
+<!-- HTC One -->
+<deviceProfile>
+
+	<maxPictureHeight>
+1400
+	</maxPictureHeight>
+
+</deviceProfile><!-- From: file:/Users/user/WorkSpace/Android/poly-picker/camera/res/xml/cwac_camera_profile_htc_m7.xml -->
